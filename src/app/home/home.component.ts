@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() {}
   name = 'Shreyas';
 
+  mycolor = 'lightgrey'
 
   @Input() item = 'Laptops';
 

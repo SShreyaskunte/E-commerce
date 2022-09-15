@@ -54,7 +54,7 @@ export class ProductsComponent implements OnInit {
       "image":"https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81i7t0AP1oL._SL1500_.jpg",
       "pname" : "TV's",
       "pdescription" : "Kodak 139 cm (55 inches) 4K Ultra HD Smart Android LED TV 55UHDX7XPROBL (Black) (2022 Model) | With Bezel-Less Design",
-      "status" : "In Stock"
+      "status" : "Out of Stock"
     },{
       "pid":"107",
       "image":"https://wallpapercave.com/wp/wp2276052.jpg",

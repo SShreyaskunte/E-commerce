@@ -19,30 +19,33 @@
 <body>
 
   <div id="intro" class="bg-image shadow-2-strong">
-      <!-- <div  *ngFor="let products of productdetails">
+      <div  *ngFor="let products of productdetails">
           <div class="col-sm-9 col-md-6 col-lg-8">
             <div class="container mt-3">
-              <div class="card" style="width:400px">
-                <img class="card-img-top" src="{{products.image}}" alt="Card image" style="width:100%">
+              <div class="card" style="width:400px" style="margin-left: 450px ;">
+                <img class="card-img-top" src="{{products.image}}" alt="Card image">
                 <div class="card-body">
                   <h4 class="card-title">{{products.pname}}</h4>
-                  <p class="card-text">{{products.pdescription}}</p>
-                  <p class="card-text">Status : {{products.status}}</p>
+                  <p class="card-text" [style.font-size]="'17px'" >{{products.pdescription}}</p>
+                  <div class="card-text" [ngSwitch]="products.status" >
+                    <p *ngSwitchCase="'In Stock'" class="text-success">Status : {{products.status}}</p>
+                    <p *ngSwitchCase="'Out of Stock'" class="text-danger">Status : {{products.status}}</p>
+                  </div>
                   <a href="#" class="btn btn-primary">See More</a>
                 </div>
               </div>
             </div>
           </div>
-      </div> -->
+      </div>
 
-      <div class="container-fluid">
+      <!-- <div class="container-fluid">
         <div class="row">
           <div class="col">
             <div class="container mt-3">
               <div class="card" style="width:400px; margin-left: 65px;">
                 <img class="card-img-top" src="https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Card image" style="width:100%">
                 <div class="card-body">
-                  <h4 class="card-title">Laptop</h4>
+                  <h4 class="card-title">LAPTOP</h4>
                   <p class="card-text">Make the most of every day with the sleek style, performance, and all-day battery life you need in our lightest Surface Laptop, all at an exceptional price</p>
                   <p class="card-text"  style="color: green;">Status : In Stock</p>
                   <a href="https://www.dell.com/en-in/shop/scc/sc/laptops?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=Cj0KCQjw94WZBhDtARIsAKxWG-8kKpNUpX480n7VO0cuR9ZpRx9-E-K903E3KPFzffCw6sfWkr_AJKwaAvhMEALw_wcB&gclsrc=aw.ds&nclid=M-w4I8yxbal4ZymwK7DCmae-z_LWswe9Q418g6eniUOur1UtY_D0XxdI3FRrmqsN" target="_blank" class="btn btn-primary">See More</a>
@@ -55,7 +58,7 @@
               <div class="card" style="width:400px; margin-left: 50px; margin-top: 100px;">
                 <img class="card-img-top" src="https://c0.wallpaperflare.com/preview/850/184/1002/phone-iphone-mobile-screen.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
-                  <h4 class="card-title">Mobiles</h4>
+                  <h4 class="card-title">MOBILES</h4>
                   <p class="card-text">Apple iPhone 13 Mini (512GB) price in India starts from ₹93,469. It is available at lowest price on Flipkart in India as on Sep 14, 2022. Take a look at Apple iPhone 13 Mini (512GB) detailed specifications and features.</p>
                   <p class="card-text"  style="color: red;">Status : Out of Stock</p>
                   <a href="https://theimaginestore.com/iphone" target="_blank" class="btn btn-primary">See More</a>
@@ -71,7 +74,7 @@
                 <div class="card" style="width:400px; margin-left: 10px;">
                   <img class="card-img-top" src="https://images.pexels.com/photos/3574678/pexels-photo-3574678.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Card image" style="width:100%">
                   <div class="card-body">
-                    <h4 class="card-title">Headphones</h4>
+                    <h4 class="card-title">HEADPHONES</h4>
                     <p class="card-text">Zebronics Zeb-Paradise Over-Ear Wireless Headphone with Mic (Bluetooth 4.2, Built-in FM Radio, Blue)</p>
                     <p class="card-text" style="color: green;">Status : In Stock</p>
                     <a href="https://zebronics.com/collections/peripheral-z?product_type=Premium+Gaming+Headphone&q=head"  target="_blank"class="btn btn-primary">See More</a>
@@ -84,7 +87,7 @@
                 <div class="card" style="width:400px; margin-left: 250px; margin-top: 200px;">
                   <img class="card-img-top" src="https://images.unsplash.com/photo-1526648856597-c2b6745ad7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2glMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="Card image" style="width:100%">
                   <div class="card-body">
-                    <h4 class="card-title">Watches</h4>
+                    <h4 class="card-title">WATCHES</h4>
                     <p class="card-text">Analog Men's Watch.</p>
                     <p class="card-text" style="color: green;" >Status : In Stock</p>
                     <a href="https://www.omegawatches.com/suggestions/omega-mens-watches" target="_blank" class="btn btn-primary">See More</a>
@@ -100,7 +103,7 @@
                   <div class="card" style="width:400px; margin-left: 10px; margin-top: 150px;">
                     <img class="card-img-top" src="https://c4.wallpaperflare.com/wallpaper/1003/3/727/background-widescreen-the-camera-nikon-lens-hd-wallpaper-preview.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
-                      <h4 class="card-title">Camera</h4>
+                      <h4 class="card-title">CAMERA</h4>
                       <p class="card-text">Nikon D7500 20.9MP Digital SLR Camera (Black) with AF-S DX NIKKOR 18-140mm f/3.5-5.6G ED VR Lens</p>
                       <p class="card-text" style="color: green;">Status : In Stock</p>
                       <a href="https://www.omegawatches.com/suggestions/omega-mens-watches" target="_blank" class="btn btn-primary">See More</a>
@@ -113,7 +116,7 @@
                   <div class="card" style="width:400px; margin-left: 50px;">
                     <img class="card-img-top" src="https://c1.wallpaperflare.com/preview/755/46/382/shoes-boots-nike-air.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
-                      <h4 class="card-title">Shoes</h4>
+                      <h4 class="card-title">SHOES</h4>
                       <p class="card-text">Air Jordan 1 Heritage Style (6)</p>
                       <p class="card-text" style="color: red;" >Status : Out of Stock</p>
                       <a href="https://www.nike.com/w/mens-basketball-shoes-3glsmznik1zy7ok" target="_blank" class="btn btn-primary">See More</a>
@@ -143,7 +146,7 @@
                     <div class="card" style="width:400px; margin-left: 360px; margin-top: 200px;">
                       <img class="card-img-top" src="https://wallpapercave.com/wp/wp2276052.jpg" alt="Card image" style="width:100%">
                       <div class="card-body">
-                        <h4 class="card-title">Joysticks</h4>
+                        <h4 class="card-title">JOYSTICKS</h4>
                         <p class="card-text">ZEBRONICS Zeb-MAX Play Windows Compatible 2.4GHz Wireless Gamepad with 10H* Backup, Turbo Mode, Dual Vibration Motors, Quad Front triggers, Type C Rechargeable and Plug & Play Setup</p>
                         <p class="card-text" style="color: green;">Status : I Stock</p>
                         <a href="https://www.thrustmaster.com/en-gb/universe/controllers/" target="_blank" class="btn btn-primary">See More</a>
@@ -153,7 +156,7 @@
                 </div>
               </div>
             </div>
-      </div>
+      </div> -->
     </div>
 </body>
 </html>
