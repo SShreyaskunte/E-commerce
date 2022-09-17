@@ -9,7 +9,7 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
-  logo = "https://press.aboutamazon.com/system/files-encrypted/nasdaq_kms/inline-images/Amazon-logo.jpg"
+  logo = "assets/logo.jpg"
 
   ngOnInit(): void {
   }

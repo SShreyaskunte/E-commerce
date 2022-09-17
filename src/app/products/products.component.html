@@ -6,6 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    #myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(67, 53, 53, 0.235); /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
      #intro {
       background-image: url("assets/background.jpg");
       background-size: cover;
@@ -13,16 +31,24 @@
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
+
+    #transition{
+            transition: 0.5s, transform 1s;
+        }
+    #transition:hover{
+            scale: 110%;
+        }
     
   </style>
 </head>
 <body>
 
   <div id="intro" class="bg-image shadow-2-strong">
-      <div  *ngFor="let products of productdetails">
-          <div class="col-sm-9 col-md-6 col-lg-8">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <!-- <div  *ngFor="let products of productdetails"  style="float:left;">
+          <div class="col">
             <div class="container mt-3">
-              <div class="card" style="width:400px" style="margin-left: 450px ;">
+              <div class="card" style="width:20rem; margin: 30px;" >
                 <img class="card-img-top" src="{{products.image}}" alt="Card image">
                 <div class="card-body">
                   <h4 class="card-title">{{products.pname}}</h4>
@@ -36,13 +62,13 @@
               </div>
             </div>
           </div>
-      </div>
+      </div> -->
 
-      <!-- <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row">
           <div class="col">
             <div class="container mt-3">
-              <div class="card" style="width:400px; margin-left: 65px;">
+              <div class="card"  id="transition" style="width:400px; margin-left: 65px;">
                 <img class="card-img-top" src="https://images.unsplash.com/photo-1542393545-10f5cde2c810?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGxhcHRvcHxlbnwwfHwwfHw%3D&w=1000&q=80" alt="Card image" style="width:100%">
                 <div class="card-body">
                   <h4 class="card-title">LAPTOP</h4>
@@ -55,7 +81,7 @@
           </div>
           <div class="col">
             <div class="container mt-3">
-              <div class="card" style="width:400px; margin-left: 50px; margin-top: 100px;">
+              <div class="card"  id="transition" style="width:400px; margin-left: 50px; margin-top: 100px;">
                 <img class="card-img-top" src="https://c0.wallpaperflare.com/preview/850/184/1002/phone-iphone-mobile-screen.jpg" alt="Card image" style="width:100%">
                 <div class="card-body">
                   <h4 class="card-title">MOBILES</h4>
@@ -71,7 +97,7 @@
           <div class="row">
             <div class="col">
               <div class="container mt-3">
-                <div class="card" style="width:400px; margin-left: 10px;">
+                <div class="card"  id="transition" style="width:400px; margin-left: 10px;">
                   <img class="card-img-top" src="https://images.pexels.com/photos/3574678/pexels-photo-3574678.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Card image" style="width:100%">
                   <div class="card-body">
                     <h4 class="card-title">HEADPHONES</h4>
@@ -84,7 +110,7 @@
             </div>
             <div class="col">
               <div class="container mt-3">
-                <div class="card" style="width:400px; margin-left: 250px; margin-top: 200px;">
+                <div class="card"  id="transition" style="width:400px; margin-left: 250px; margin-top: 200px;">
                   <img class="card-img-top" src="https://images.unsplash.com/photo-1526648856597-c2b6745ad7bd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2F0Y2glMjB3YWxscGFwZXJ8ZW58MHx8MHx8&w=1000&q=80" alt="Card image" style="width:100%">
                   <div class="card-body">
                     <h4 class="card-title">WATCHES</h4>
@@ -100,7 +126,7 @@
             <div class="row">
               <div class="col">
                 <div class="container mt-3">
-                  <div class="card" style="width:400px; margin-left: 10px; margin-top: 150px;">
+                  <div class="card"  id="transition" style="width:400px; margin-left: 10px; margin-top: 150px;">
                     <img class="card-img-top" src="https://c4.wallpaperflare.com/wallpaper/1003/3/727/background-widescreen-the-camera-nikon-lens-hd-wallpaper-preview.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h4 class="card-title">CAMERA</h4>
@@ -113,7 +139,7 @@
               </div>
               <div class="col">
                 <div class="container mt-3">
-                  <div class="card" style="width:400px; margin-left: 50px;">
+                  <div class="card"  id="transition" style="width:400px; margin-left: 50px;">
                     <img class="card-img-top" src="https://c1.wallpaperflare.com/preview/755/46/382/shoes-boots-nike-air.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                       <h4 class="card-title">SHOES</h4>
@@ -130,7 +156,7 @@
               <div class="row">
                 <div class="col-sm-3 col-md-6 col-lg-4">
                   <div class="container mt-3">
-                    <div class="card" style="width:400px; margin-left: 0px">
+                    <div class="card"  id="transition" style="width:400px; margin-left: 0px">
                       <img class="card-img-top" src="https://m.media-amazon.com/images/W/WEBP_402378-T1/images/I/81i7t0AP1oL._SL1500_.jpg" alt="Card image" style="width:100%">
                       <div class="card-body">
                         <h4 class="card-title">TV's</h4>
@@ -143,12 +169,12 @@
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-8">
                   <div class="container mt-3">
-                    <div class="card" style="width:400px; margin-left: 360px; margin-top: 200px;">
+                    <div class="card"  id="transition" style="width:400px; margin-left: 360px; margin-top: 200px;">
                       <img class="card-img-top" src="https://wallpapercave.com/wp/wp2276052.jpg" alt="Card image" style="width:100%">
                       <div class="card-body">
                         <h4 class="card-title">JOYSTICKS</h4>
                         <p class="card-text">ZEBRONICS Zeb-MAX Play Windows Compatible 2.4GHz Wireless Gamepad with 10H* Backup, Turbo Mode, Dual Vibration Motors, Quad Front triggers, Type C Rechargeable and Plug & Play Setup</p>
-                        <p class="card-text" style="color: green;">Status : I Stock</p>
+                        <p class="card-text" style="color: green;">Status : In Stock</p>
                         <a href="https://www.thrustmaster.com/en-gb/universe/controllers/" target="_blank" class="btn btn-primary">See More</a>
                       </div>
                     </div>
@@ -156,7 +182,9 @@
                 </div>
               </div>
             </div>
-      </div> -->
-    </div>
-</body>
+      </div>
+    <iframe id="transition" width="560" height="315" style="margin-left: 50px ; margin-bottom: 10px;" src="https://www.youtube.com/embed/UbpuZCB3x9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe id="transition" width="560" height="315" style="margin-left: 50px ; margin-top:20px; margin-bottom: 10px;" src="https://www.youtube.com/embed/QuMWSrJyt3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </body>
 </html>

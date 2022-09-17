@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { BindingComponent } from './binding/binding.component';
 import { ProductsComponent } from './products/products.component';
 import { SearchComponent } from './search/search.component';
+import { FooterComponent } from './footer/footer.component';
+import { LaptopsComponent } from './laptops/laptops.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SearchComponent } from './search/search.component';
     HomeComponent,
     BindingComponent,
     ProductsComponent,
-    SearchComponent
+    SearchComponent,
+    FooterComponent,
+    LaptopsComponent
   ],
   imports: [
     BrowserModule,

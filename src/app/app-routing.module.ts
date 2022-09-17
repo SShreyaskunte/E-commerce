@@ -5,10 +5,12 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { BindingComponent } from './binding/binding.component';
 import { ProductsComponent } from './products/products.component';
+import { LaptopsComponent } from './laptops/laptops.component';
 
 const routes: Routes = [
-  {path:' ', component:HomeComponent},
-  {path:'products',component:ProductsComponent}
+  {path:'home', component:HomeComponent},
+  {path:'products',component:ProductsComponent},
+  {path: 'laptops', component:LaptopsComponent}
 ];
 
 @NgModule({

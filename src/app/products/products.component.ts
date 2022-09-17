@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,ViewChild} from '@angular/core';
 
 @Component({
   selector: 'app-products',
@@ -68,12 +68,7 @@ export class ProductsComponent implements OnInit {
       "pdescription" : "Noise Pulse Go Buzz Advanced Bluetooth Calling Smart Watch with 1.69 Display, 500 NITS Brightness, Noise Health Suite, 150+ Cloud Watch Face, 100 Sports Mode, Music & Camera Control-(Midnight Blue)",
       "status" : "In Stock"
     },
-
-
-
   ]
-
   ngOnInit(): void {
   }
-
 }
