@@ -24,12 +24,12 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">
-                Company name
+                INSTANT BUY
               </h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                Ours is one of the most elite service providing
+                company which is mainly established on the basis of
+                trust, we belive in the best customer experience.
               </p>
             </div>
             <!-- Grid column -->
@@ -40,16 +40,16 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
               <p>
-                <a class="text-white">MDBootstrap</a>
+                <a class="text-white">Laptops</a>
               </p>
               <p>
-                <a class="text-white">MDWordPress</a>
+                <a class="text-white">Mobiles</a>
               </p>
               <p>
-                <a class="text-white">BrandFlow</a>
+                <a class="text-white">Shoes</a>
               </p>
               <p>
-                <a class="text-white">Bootstrap Angular</a>
+                <a class="text-white">Cameras</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -81,10 +81,12 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-              <p><i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
-              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+              <div *ngFor="let c of contact">
+                <pre><i class="fas fa-home mr-3"></i> {{c.address}}</pre>
+                <pre><i class="fas fa-envelope mr-3"></i> {{c.mailId}}</pre>
+                <pre><i class="fas fa-phone mr-3"></i> {{c.phoneNumber}}</pre>
+                <pre><i class="fas fa-print mr-3"></i> {{c.faxNumber}}</pre>
+              </div>
             </div>
             <!-- Grid column -->
           </div>
@@ -102,8 +104,8 @@
               <!-- Copyright -->
               <div class="p-3">
                 © 2020 Copyright:
-                <a class="text-white" href="https://mdbootstrap.com/"
-                   >MDBootstrap.com</a
+                <a class="text-white" routerLink="home"
+                   >InstantBuy</a
                   >
               </div>
               <!-- Copyright -->

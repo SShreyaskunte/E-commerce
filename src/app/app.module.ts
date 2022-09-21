@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -10,6 +10,10 @@ import { ProductsComponent } from './products/products.component';
 import { SearchComponent } from './search/search.component';
 import { FooterComponent } from './footer/footer.component';
 import { LaptopsComponent } from './laptops/laptops.component';
+import { ChildComponent } from './laptops/child/child.component';
+import { RegisterComponent } from './register/register.component';
+import { MobileComponent } from './mobile/mobile.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,11 +24,17 @@ import { LaptopsComponent } from './laptops/laptops.component';
     ProductsComponent,
     SearchComponent,
     FooterComponent,
-    LaptopsComponent
+    LaptopsComponent,
+    ChildComponent,
+    RegisterComponent,
+    MobileComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

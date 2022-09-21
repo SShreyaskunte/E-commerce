@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ContactService } from '../contact.service';
+import { Contact } from '../contact';
 
 @Component({
   selector: 'app-footer',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  contact:Contact[]=[]
+
+  constructor(private contactService:ContactService) { }
 
   ngOnInit(): void {
+    const contactObservable = this.contactService.getContactDetails();
+    contactObservable.subscribe((contactData:Contact[])=>
+    {
+      this.contact = contactData;
+    });
   }
+  
 
 }
