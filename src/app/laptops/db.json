@@ -1,0 +1,19 @@
+{
+    "laptops" :[
+        {
+          "id": 1,
+          "pname": "Macbook Pro",
+          "pdescription": "Apple MacBook Laptop (2TB) - Midnight",
+          "price": 122999,
+          "img": "https://www.apple.com/v/macbook-pro-14-and-16/b/images/overview/hero/hero_intro_endframe__e6khcva4hkeq_large.jpg"
+        },
+        {
+          "id": 2,
+          "pname": "Dell",
+          "pdescription": "DELL Laptop",
+          "price": 80999,
+          "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/global-spi/ng/notebook-latitude-14-3420-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400"
+        }
+      
+    ]
+}

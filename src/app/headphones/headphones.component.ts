@@ -1,21 +1,19 @@
 import { Component, OnInit, Input } from '@angular/core';
+import * as headphones from  "../headphones/db.json";
 import { CartService } from '../cart.service';
 import { Cartitem } from '../cartitem';
 import Swal from 'sweetalert2';
 import * as AOS from 'aos';
-import * as laptops from '../laptops/db.json'
-import { environment } from 'src/environments/environment';
+
 
 @Component({
-  selector: 'app-laptops',
-  templateUrl: './laptops.component.html',
-  styleUrls: ['./laptops.component.css']
+  selector: 'app-headphones',
+  templateUrl: './headphones.component.html',
+  styleUrls: ['./headphones.component.css']
 })
-export class LaptopsComponent implements OnInit {
+export class HeadphonesComponent implements OnInit {
 
   constructor(private cartsvc:CartService) { }
-
-  laptopapi = environment.laptopapi;
 
   cart:Cartitem={
     pid:0,
@@ -58,8 +56,7 @@ export class LaptopsComponent implements OnInit {
   ngOnInit(): void {
     AOS.init()
   }
-
-  allLaptops:any=(laptops as any).default;
+  allheadphones:any=(headphones as any).default;
 
 
 }

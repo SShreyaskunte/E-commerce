@@ -4,28 +4,49 @@
         "pname": "APPLE",
         "pdescription": "Apple iPhone 13 (128GB) - Midnight",
         "price": 63990,
-        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAbFBMVEUWFhb///8AAAATExMNDQ3JyckQEBAICAgaGhr8/Pzz8/Pn5+fNzc3V1dX29vZ8fHyEhIRTU1OVlZVmZmZKSkqKiopBQUFdXV2+vr4jIyOioqIyMjLf399ERESOjo6AgIBwcHCxsbE4ODgpKSl6pGXwAAACK0lEQVR4nO3ay27iQBBAUXfZtPEDMO9XSEL4/38cGgZ5srFrMVIV0j2ryKur7rjcdpJlAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8X7l1gEouIu9QKuViUm0K64wxUbo6hLD0HlrENiTnaF0yLGbNo7MS65IRMnt0honzUFk9O8Pad2he/u388N3ZL+imtE4ZJh/Pzq3zBc3Fd2delGWRHpnxnDKbpfSXHClFdvv9JT3e82Oo24WkHy/PS9ZxvSjLwzyt47z9KkSOqXL6OaselyZr8fIglVsbepPuMt19/XvlY+djUeU7jNl6OPDJdrQzhJP9mirW08WwKs6qzuvUeu9fB6VhnfnvqKw1nZ/W+34PnSg6W/vOfFopQnf2A7/cv8eC9kfPIZ2H0Ot77LzuXjIfTZlyijrYeV2oh29lqq3fO3jHU91MDk5OmZwUoY2HUNUZz8EHk/ijCW0cDChpNKUH+1I5aELD1fxFVPkiEtqb8aLmMteVVlfjua+apIn1HVWo7vu7hfWMknY8MniY+uVGFfptHqqbUDP7zizeFC94P9ZzNJFutHPlYEEzxf3kYeOTmNeDnfOjh41P5DIYunSyoHfy60NEVf96rjo4jvZk89r9WXdOn/HXr6FVO1rPpJTV/WhaX3ciMc/zKDI9NVVoTp7+KPKQ/jPjrr9t4vOC+ZEZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHt/AHZMErQNRvGfAAAAAElFTkSuQmCC"
+        "img": "https://imageio.forbes.com/specials-images/imageserve/60a91f9a5f6002a4c8174108/Apple--iPhone--iPhone-13--new-iPhone--iPhone-upgrade--pink-iPhone--iPhone-13-release-/0x0.jpg?format=jpg&crop=1077,1038,x148,y0,safe&width=960",
+        "status": "Out of Stock"
       },
       {
         "id": 2,
         "pname": "Redmi 9 Activ",
         "pdescription": "Carbon Black, 4GB RAM, 64GB Storage) | Octa-core Helio G35 | 5000 mAh Battery",
         "price": 8099,
-        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX/ZwD/////bAr/ZAD/XQD/jlj/5db/1Lr/4dH/hk//zbP/YQD/mmT/WAD//fj/p3r/dTD/eSb/xar/j1H/awD/9e7/dh//0br/tpP/vZz/iVf/fDn/iVL/6+H/2cj/sov/oG//+PL/fC//wqT/h0f/z7T/gzr/ll3/rYT/hEn/gEL/cRbHk+LxAAAC+UlEQVR4nO3d21LiQBRG4W661YFglACJzHgADzjq+7/fhPGKTqNikdJ/u1YVd4HsjwatgiQ431ZW04Gz1mBalRuca28jF8NXz9NDIc6aV+GFSd+mEBcb4Sh+9SA9FhvvSmd1BTeFgXeV5SVsF3HkppaXsF3EsbP3b2K7+qsH6D3rK4jQQgj1Q6gfQv0Q6odQP4T6IdQPoX4I9UOoH0L9EOqHUD+E+iHUD6F+CPVDqB9C/RDqh1A/hPoh1A+hfgj1Q6gfQv0Q6oewWzhUn91b78LLowP0e/inDrF4d9rQ3dtlz8Ji5A9TOb+6vhmGt0+yLm4y96yKXoXh+EDC1+aL+i1jPMnc55eUsK2a7Z7YhtCXy1PjQu+bXSfMmxH6q0l+ajtCv1pnxzYk9OVtbm5LQj9/ybwXTQn9cWZwW0J/171AhzGhv++8Tq0Ju6NbE/qjdBHNCZv0nWhOuKqTRTQn9ONk+G8jLO/PP9Z6etOUbwjTi3J9G+HD6Yc/nCliWF7tFB5/11fpftdDK+LFLuEqGUdU2A4+3vVSTf7UyApdXO4Qrq0I3eldXjg1I3TFPCt83J5eWRj/ZoVjO0IX7Qtzw5sSZj+wNyUM9+aFtbbw/a/9wkBZGNykU50+C8rCcLsqO3WeBmVhcZYbvky+YUKIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkRoVvhgSVhUmX2ebe8zrHOnpp2kh0pnnqvydvtw8CJ3Zs2iX6FzT8O053SX4byzzXCYPk4YdLeZpMe7F8+dbZ72vBTWQa719ZFtMnN98pH2nJfrtemHUD+E+iHUD6F+CPVDqB9C/RDqh1A/hPoh1A+hfgj1Q6gfQv0Q6odQP4T6IdQPoX4I9UOoH0L9EOqHUD+E+iHUD6F+CPX7CULrxtpN9z3dTaswdtUnfspIqNi4cmZ5EcOLd91f4bVUvG6FfhGtrmKId34j9M3MpDHEl2v/KvTl6LEeWKseN//Pbv8H9aVWgXS5NDQAAAAASUVORK5CYII="
+        "img": "https://sc04.alicdn.com/kf/Hb15bc1448568478fa65362414caafacdF.jpg",
+        "status": "In Stock"
       },
       {
         "id": 3,
         "pname": "Samsung Galaxy Z Fold 4 5G",
         "pdescription": "Beige, 12GB RAM 1TB Storage",
         "price": 169999,
-        "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKgAAAEsCAMAAABgwwj8AAAAeFBMVEUAAAD///8bGxvs7OyZmZn8/PyWlpYXFxeJiYkNDQ3h4eHn5+dGRkZVVVW1tbU6Ojry8vKrq6tycnLIyMhhYWFsbGx/f39OTk4lJSUsLCxZWVm8vLyRkZGCgoJmZmaNjY3X19ehoaEzMzMpKSnOzs5AQEATExPCwsLrPv3XAAAD4klEQVR4nO3XW3eqMBCG4aBi8YwnVDzSWv3//3DPTBK0rtYtvdprr/e5qARM+EgGsM4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+L+MdlXVKXq/6DnZ73bZsGmvVdbt7ieNT7ZoJ9407gjtQWiH5kI292E7fHHgW/nSml3dbjnXkY/0IjtaqR2ey2Yln23fq8jD8KNmOcukFpLqCXM5R9q7BZVmVzanthWCHm49D3XQtxBU+7Zul9Wpg+5vvZol7VvETn6bqK1sjbU9vAW9yi7ZPNtW+KKuRDoda/v0NKhcxq4Oahd6srP2GwUNU7nUz5Xt0QXd6Z/Cmj090vXDSrZODPqmG5lf1fzHoOnJLvEYg1pdzZwbhzp52UY7VFLgt7XQa17M61JY65GlhbnokRh0GE6ZxR3fB+1awiwG1ZVPXaibRrehVeDI9YbiUgeYjOOCuncLYtf/KX/XMZctbPvDbcqyHP0YNNEZ+LR8FjQLB1fn63ze6M4/WRmNL/WOwq45iwtq6RKX63zLoX4d1Pl7vlt3/D7oWspxZ4N+Cdrcuy/4tIo7phbRlmatbZthvY0yLcfthzbtTCPfM98/Dfpe6dLMHoKudAGHb82ShudaHp4WOsVnX7uHOo9mnDop3OO6vgJX+udk0v94EvRzqAv0GNR3LBtOauW76Z0hNPfY125H2/7uKXReZBVXdgXvoec49Bz+HHSlAy4P3wZt+MiXEa++o57flvboK1DfKb4ItELaOryf6voumJytY/tZULma8eIh6LFqHLQnZBVt/auYS9Zcn0/2El36u0eWuaV7NnEGe+tWS0pgZkkXPwYtdcT2Y9D7x+FrRkmaasBJ4lfcTqNTO/X5QhJ7g+3q4l3F/ftwZccnQXUhssego+ZBE/9kH4Sg8xBw/yWQlWNf53wd7wLbry8v/ZQ3lL0m9XlgQV0MurAh5zFoEQ6WdWm/yJ5OJynN9C7wII60D0Mn/iUod4UPqittj61rKI3F3RTrezy/D1okt0Iu/cRcTnHBXmaP7cE8jROVxJso1kIIakUlNbEONewfD8nAzmgTeLFvDGyk7X1QdxfUxR+V8TQvK792XMVScGGqfQ2Es+bh0x5ky1vPzIY61u20VQfV36r+7edfdMP6S+2GL6hR+Pnr480G/f7Acsz7QmdU98jnWZqy0q22NA/+GvvhjLMw1CwMNfc/iy7b7fZqZX6VrW34ubse+6WoXGOf8q9Bd9m8n1T27Hgs7n9afCyL4u/38mWz+c3ZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPzT/gD+bir/qYHYiQAAAABJRU5ErkJggg=="
+        "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Untitled3153.png",
+        "status": "In Stock"
       },
       {
         "id": 4,
         "pname": "OnePlus 10 Pro 5G",
         "pdescription": "Emerald Forest, 12GB RAM, 256GB Storage",
         "price": 70999,
-        "img": "https://9to5google.com/wp-content/uploads/sites/4/2020/03/oneplus_logo_uspto_1.jpg?quality=82&strip=all"
+        "img": "https://images.indianexpress.com/2022/01/oneplus10-pro.jpg",
+        "status": "In Stock"
+      },
+      {
+        "id": 5,
+        "pname": "Xiaomi 12 Pro | 5G ",
+        "pdescription": "Noir Black, 12GB RAM, 256GB Storage| Snapdragon 8 Gen 1 | 50+50+50MP Flagship Cameras + OIS | 120Hz 2K+ E5 Curved AMOLED | Sound by Harman Kardon",
+        "price": 70999,
+        "img": "https://i01.appmifile.com/webfile/globalimg/products/pc/xiaomi-12-pro/pc-section04-slider01s.png",
+        "status": "Out of Stock"
+
+      }
+      ,{
+        "id": 6,
+        "pname": "OPPO Reno3 Pro",
+        "pdescription": "Auroral Blue, 8GB RAM, 256GB Storage",
+        "price": 34000,
+        "img": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x5-pro-en/middlebanner/findx5-pro-mobile.jpg.thumb.webp",
+        "status": "In Stock"
       }
     
 ]

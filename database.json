@@ -1,0 +1,191 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "pname": "Dell Inspiron 15",
+      "pdescription": "Dell Laptop",
+      "price": "43999",
+      "img": "https://th.bing.com/th/id/OIP.w1nfH9XM1EoRpGvSyc-HHQHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 2,
+      "pname": "Jabra Headphones",
+      "pdescription": "Jabra Headphones",
+      "price": 3500,
+      "img": "https://th.bing.com/th/id/OIP.6fUrfdYdaP2E2FMAwbmviQHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 3,
+      "pname": "Titan Watch",
+      "pdescription": "Titan watch for girls",
+      "price": 1500,
+      "img": "https://static-01.daraz.com.np/p/483739b555784acbee3874e5d9f8ffb0.jpg"
+    },
+    {
+      "id": 4,
+      "pname": "Sony TV",
+      "pdescription": "Sony Bravia LED TV - 65 inch",
+      "price": 35000,
+      "img": "https://th.bing.com/th/id/OIP.z35a_DfUQDnaHz2Nh8y7OgHaHa?pid=ImgDet&rs=1"
+    },
+    {
+      "id": 5,
+      "pname": "Samsung",
+      "pdescription": "Samsung - double door ",
+      "price": 100000,
+      "img": "https://th.bing.com/th/id/OIP.cEq4nA2i692-UiBSIbRf0QHaIq?w=176&h=206&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+    },
+    {
+      "id": 6,
+      "pname": "LG",
+      "pdescription": "LG - 500 litres",
+      "price": 18990,
+      "img": "https://th.bing.com/th/id/OIP.HS3xpE6Xi8jUqCL4n0labQHaHa?w=186&h=186&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+    },
+    {
+      "id": 7,
+      "pname": "Whirpool",
+      "pdescription": "Whirlpool - Single Door",
+      "price": 11990,
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS-jFitvGokxdqqClUXuZNSebA0vg2fnQxLUP31KC-UHfNPACHmiuH13qmJ_t2oJgVRU5nO4xaLZdcuw8UZk9-0jNR9Ay4EPy4TTms2bCQj&usqp=CAE"
+    },
+    {
+      "id": 9,
+      "pname": "Macbook Pro",
+      "pdescription": "Apple MacBook Laptop (2TB) - Midnight",
+      "price": 122999,
+      "img": "https://www.apple.com/v/macbook-pro-14-and-16/b/images/overview/hero/hero_intro_endframe__e6khcva4hkeq_large.jpg"
+    },
+    {
+      "id": 10,
+      "pname": "Dell",
+      "pdescription": "DELL Laptop",
+      "price": 80999,
+      "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/global-spi/ng/notebook-latitude-14-3420-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400"
+    },
+    {
+      "id": 11,
+      "pname": "APPLE",
+      "pdescription": "Apple iPhone 13 (128GB) - Midnight",
+      "price": 63990,
+      "img": "https://imageio.forbes.com/specials-images/imageserve/60a91f9a5f6002a4c8174108/Apple--iPhone--iPhone-13--new-iPhone--iPhone-upgrade--pink-iPhone--iPhone-13-release-/0x0.jpg?format=jpg&crop=1077,1038,x148,y0,safe&width=960"
+    },
+    {
+      "id": 12,
+      "pname": "Redmi 9 Activ",
+      "pdescription": "Carbon Black, 4GB RAM, 64GB Storage) | Octa-core Helio G35 | 5000 mAh Battery",
+      "price": 8099,
+      "img": "https://sc04.alicdn.com/kf/Hb15bc1448568478fa65362414caafacdF.jpg"
+    },
+    {
+      "id": 13,
+      "pname": "Samsung Galaxy Z Fold 4 5G",
+      "pdescription": "Beige, 12GB RAM 1TB Storage",
+      "price": 169999,
+      "img": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Untitled3153.png"
+    },
+    {
+      "id": 14,
+      "pname": "OnePlus 10 Pro 5G",
+      "pdescription": "Emerald Forest, 12GB RAM, 256GB Storage",
+      "price": 70999,
+      "img": "https://images.indianexpress.com/2022/01/oneplus10-pro.jpg"
+    },
+    {
+      "id": 15,
+      "pname": "Xiaomi 12 Pro | 5G ",
+      "pdescription": "Noir Black, 12GB RAM, 256GB Storage| Snapdragon 8 Gen 1 | 50+50+50MP Flagship Cameras + OIS | 120Hz 2K+ E5 Curved AMOLED | Sound by Harman Kardon",
+      "price": 70999,
+      "img": "https://i01.appmifile.com/webfile/globalimg/products/pc/xiaomi-12-pro/pc-section04-slider01s.png"
+    },
+    {
+      "id": 16,
+      "pname": "OPPO Reno3 Pro",
+      "pdescription": "Auroral Blue, 8GB RAM, 256GB Storage",
+      "price": "35000",
+      "img": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/find-x5-pro-en/middlebanner/findx5-pro-mobile.jpg.thumb.webp"
+    }
+  ],
+  "users": [
+    {
+      "username": "john@gmail.com",
+      "useremail": "pallavikatari@gmail.com",
+      "password": "John@123",
+      "mobile": "",
+      "id": 1
+    },
+    {
+      "username": "Admin",
+      "useremail": "admin@gmail.com",
+      "password": "admin@123",
+      "mobile": "9898989898",
+      "id": 3
+    },
+    {
+      "username": "Jancy",
+      "useremail": "jancy@gmail.com",
+      "password": "jancy123",
+      "mobile": "",
+      "id": 4
+    },
+    {
+      "username": "Shreyas",
+      "useremail": "shreyaskunte@gmail.com",
+      "password": "shreyas",
+      "mobile": "7795250455",
+      "id": 5
+    },
+    {
+      "username": "sagar",
+      "useremail": "sagieng@gmail",
+      "password": "shraaa",
+      "mobile": "7795250",
+      "id": 6
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin",
+      "useremail": "admin@gmail.com",
+      "password": "adminiam",
+      "mobile": "9880582925",
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "pid": 1,
+      "pname": "APPLE",
+      "pdescription": "Apple iPhone 13 (128GB) - Midnight",
+      "price": 63990,
+      "img": "https://imageio.forbes.com/specials-images/imageserve/60a91f9a5f6002a4c8174108/Apple--iPhone--iPhone-13--new-iPhone--iPhone-upgrade--pink-iPhone--iPhone-13-release-/0x0.jpg?format=jpg&crop=1077,1038,x148,y0,safe&width=960",
+      "quantity": 1,
+      "id": 2
+    },
+    {
+      "pid": 2,
+      "pname": "Redmi 9 Activ",
+      "pdescription": "Carbon Black, 4GB RAM, 64GB Storage) | Octa-core Helio G35 | 5000 mAh Battery",
+      "price": 8099,
+      "img": "https://sc04.alicdn.com/kf/Hb15bc1448568478fa65362414caafacdF.jpg",
+      "quantity": 1,
+      "id": 3
+    }
+  ],
+  "laptops": [
+    {
+      "id": 1,
+      "pname": "Macbook Pro",
+      "pdescription": "Apple MacBook Laptop (2TB) - Midnight",
+      "price": 122999,
+      "img": "https://www.apple.com/v/macbook-pro-14-and-16/b/images/overview/hero/hero_intro_endframe__e6khcva4hkeq_large.jpg"
+    },
+    {
+      "id": 2,
+      "pname": "Dell",
+      "pdescription": "DELL Laptop",
+      "price": 80999,
+      "img": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/14-3420/global-spi/ng/notebook-latitude-14-3420-campaign-hero-504x350-ng.psd?fmt=jpg&wid=570&hei=400"
+    }
+  ]
+}

@@ -7,19 +7,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" routerLink="home">Home</a>
+            <a class="nav-link active" aria-current="page" routerLink="">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="products">Products Menu</a>
+            <a class="nav-link" routerLink="products">All Products</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" *ngIf="auth || admin"  href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"  aria-expanded="false">
               Browse Products
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" routerLink="laptops">Laptops</a></li>
               <li><a class="dropdown-item" routerLink="mobile">Mobiles</a></li>
-              <li><a class="dropdown-item" href="#">Headphones</a></li>
+              <li><a class="dropdown-item" routerLink="headphones">Headphones</a></li>
               <li><a class="dropdown-item" href="#">Watches</a></li>
               <li><a class="dropdown-item" href="#">Camera</a></li>
               <li><a class="dropdown-item" href="#">Shoes</a></li>
@@ -30,14 +30,21 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="register">Register</a>
+            <a class="nav-link" routerLink="register" *ngIf="!auth && !admin">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="allproducts" *ngIf="admin" >Admin</a>
           </li>
         </ul>
-        <form class="d-flex">
-          <input type="text" #productname placeholder="Enter product name" style="border-radius:10px;">&nbsp;
+        <form  *ngIf="auth || admin" class="d-flex">
+          <button routerLink='cartitem'  class="btn btn-dark" style="color: aliceblue;">
+            <span class="fa fa-cart-plus" style="font-size:20px;color:rgb(255, 255, 255)"><sup class="text-black" style="font-size:10px;margin-left: 3px;;">{{cartCount}}</sup></span>
+          </button> &nbsp;&nbsp;&nbsp;
+          <!-- <input type="text" #productname  placeholder="Enter product name" style="border-radius:10px;" >&nbsp;
             <button class="btn btn-outline-primary" (click)="search_product(productname.value);productname.value=''" type="submit">Search</button>
-          <app-search [product]="productentered"></app-search>
+          <app-search [product]="productentered"></app-search> -->
         </form>
+        <a class="btn" *ngIf="auth || admin" type="submit" style="border-radius:10px;color:rgb(197, 68, 68);"  routerLink="login">Logout</a>
       </div>
     </div>
   </nav>

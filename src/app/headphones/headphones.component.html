@@ -19,33 +19,34 @@
         #transition:hover{
             scale: 110%;
         }
+
     </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <div class="row">
         <div id="intro" class="bg-image shadow-2-strong">
-            <div  *ngFor="let products of allmobiles"  style="float:left;">
-                      <div class="card" id="transition" style="width: 23rem; margin: 30px 0px 10px 30px;" >
+            <div  *ngFor="let products of allheadphones"  style="float:left;">
+                      <div data-aos="zoom-in" class="card" id="transition" style="width: 27rem; margin: 20px 0px 20px 130px;" >
                         <img class="card-img-top" src="{{products.img}}" alt="Card image">
                         <div class="card-body col-lg-12">
                           <h4 class="card-title">{{products.pname}}</h4>
                           <p class="card-text" [style.font-size]="'17px'" >{{products.pdescription}}</p>
                           <div class="card-text" [ngSwitch]="products.status" >
-                            <div *ngSwitchCase="'In Stock'">
-                                <p class="text-success">Status : {{products.status}}</p>
-                                <button (click)="addToCart(products)" class="btn btn-primary">Add to Cart</button>
-                            </div>
+                            <p *ngSwitchCase="'In Stock'" class="text-success">Status : {{products.status}}</p>
                             <p *ngSwitchCase="'Out of Stock'" class="text-danger">Status : {{products.status}}</p>
                           </div>
+                          <button (click)="addToCart(products)" class="btn btn-primary">Add to Cart</button>
                         </div>
                   </div>
               </div>
-    <div>
-      <iframe id="transition" width="560" height="315" src="https://www.youtube.com/embed/FT3ODSg1GFE"  style="margin-left: 50px ; margin-bottom: 10px;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe id="transition" width="560" height="315" src="https://www.youtube.com/embed/lqP87f9lZ2M" style="margin-left: 50px ; margin-top:20px; margin-bottom: 10px;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div>
+                <iframe id="transition" width="450" height="270" src="https://www.youtube.com/embed/vuoxprrEwbg?start=120" style="margin-top: 55px ; margin-right: 20px; float:right"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="transition" width="450" height="270" src="https://www.youtube.com/embed/lqP87f9lZ2M"  style="margin-top: 50px ; margin-left: 20px; float:left"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
     <app-footer></app-footer>
 </body>
 </html>

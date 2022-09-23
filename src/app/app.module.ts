@@ -14,6 +14,10 @@ import { ChildComponent } from './laptops/child/child.component';
 import { RegisterComponent } from './register/register.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { CartitemsComponent } from './cartitems/cartitems.component';
+import { HeadphonesComponent } from './headphones/headphones.component';
+import { CredComponent } from './cred/cred.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +31,11 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     LaptopsComponent,
     ChildComponent,
     RegisterComponent,
-    MobileComponent
+    MobileComponent,
+    LoginComponent,
+    CartitemsComponent,
+    HeadphonesComponent,
+    CredComponent,
   ],
   imports: [
     BrowserModule,

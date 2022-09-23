@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "pname": "boAt",
+      "pdescription": "boAt NIRVANAA 1007ANC Wireless Bluetooth Over The Ear Headphone with Mic",
+      "price": 8999,
+      "img": "https://www.moksha.in/wp-content/uploads/2021/02/Copy-of-_19A2687.jpg"
+    },
+    {
+      "id": 2,
+      "pname": "AKG N700NC",
+      "pdescription": "AKG N700NC Over-Ear Foldable Wireless Headphones, Active Noise Cancelling Headphones ",
+      "price": 5999,
+      "img": "https://www.akg.com/on/demandware.static/-/Sites-AKG-US-Library/default/dw27ca91c1/homepage/AKG_C214_Promo_June-Aug_2022_1398x1398.jpg"
+    },
+    {
+      "id": 3,
+      "pname": "B&O Play",
+      "pdescription": "B&O Play 16422506 H8 Wireless On-Ear Active Noise Cancellation Headphones",
+      "price": 227793,
+      "img": "https://s.yimg.com/uu/api/res/1.2/0Gv6ze0XfuMzbrAZWgbFsg--~B/Zmk9ZmlsbDtoPTQzMzt3PTY3NTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2021-03/35339c80-8d5a-11eb-bddd-9b7536c93187.cf.webp"
+    },
+    {
+      "id": 4,
+      "pname": "Ultrasone PRO",
+      "pdescription": "Ultrasone PRO 900i S-Logic Plus Headphones Black",
+      "price": 142881,
+      "img": "https://images4.alphacoders.com/319/31946.jpg"
+    },
+    {
+      "id": 5,
+      "pname": "JBL Tune 760NC",
+      "pdescription": "JBL Tune 760NC, Over Ear Active Noise Cancellation Headphones with Mic, up to 50 Hours Playtime, JBL Pure Bass, Google Fast Pair, Dual Pairing, AUX & Voice Assistant Support for Mobile Phones ",
+      "price": 5699,
+      "img": "https://images-cdn.ispot.tv/ad/wWq4/default-large.jpg"
+    }
+]

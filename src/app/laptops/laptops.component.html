@@ -8,6 +8,29 @@
       background-attachment: fixed;
     }
 
+    #h1{
+        background-image: linear-gradient(45deg, #f3ec78, #af4261);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+
+    }
+
+    #h2{
+        background-image: linear-gradient(145deg, #ccff00, #003cf1);
+        background-size: 100%;
+        background-repeat: repeat;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+
+    }
+
+
     .container {
   position: relative;
   text-align: center;
@@ -58,10 +81,10 @@
                     </div>
             </div>
         </div>
-            <div style="margin-top: 80px;">
-                <div style="font-size: 5rem ; margin-left:200px" data-aos="zoom-in"> <strong>Supercharged for pros.</strong></div>
+            <div style="margin-top: 80px; background-color: black;">
+                <div id="h1" style="font-size: 5rem ; margin-left:200px" data-aos="zoom-in"> <strong>Supercharged for pros.</strong></div>
                 <div data-aos="zoom-in" >
-                    <pre style="font-size: 1.5rem;">
+                    <pre id="h1" style="font-size: 1.5rem;">
                         <strong>
                     The most powerful MacBook Pro ever is here.With the 
                     blazing-fast M1 Pro or M1 Max chip — the first Apple 
@@ -79,10 +102,10 @@
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine" class="col col-6">
                 <div>
-                    <p style="font-size: 2rem ;" ><strong> 14″ MacBook Pro</strong></p>
+                    <p id="h2" style="font-size: 2rem; margin-left: 40px;" ><strong> 14″ MacBook Pro</strong></p>
                 </div>
                 <div>
-                    <pre style="color: rgb(56, 56, 197) ;">
+                    <pre id="h2" style="color: rgb(56, 56, 197) ;">
                         <strong>
     Up to                   Up to
 
@@ -97,10 +120,10 @@
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine" class="col col-6">
                 <div>
-                    <p style="font-size: 2rem ; margin-left: 150px;" ><strong> 16″ MacBook Pro</strong></p>
+                    <p id="h2" style="font-size: 2rem ; margin-left: 170px;" ><strong> 16″ MacBook Pro</strong></p>
                 </div>
                 <div>
-                    <pre style="color: rgb(56, 56, 197) ;">
+                    <pre id="h2" style="color: rgb(56, 56, 197) ;">
                     <strong>
                     Up to                   Up to
 
@@ -113,6 +136,9 @@
                 </div>
 
             </div>
+        <div data-aos="zoom-in">
+            <button id="transition" class="btn btn-dark m-3"  style=" width: 5rem; border-radius:50%; float: right;">Add to Cart</button>
+        </div>
 </div>
 
 <hr><hr>
@@ -165,9 +191,13 @@
         </ul>
     </div>
 </div>
+<div data-aos="zoom-in">
+    <button id="transition" class="btn btn-dark m-3" (click)="addToCart(product)" style=" width: 5rem; border-radius:50%; float: right; margin-bottom: 50px;">Add to Cart</button>
+</div>
 
-
-<hr><hr>
+<div style="margin-top: 100px ;">
+    <app-footer></app-footer>
+</div>
             <!-- <div class="col col-6">
                 <div style="margin-top: 100px ;" id="transition" data-aos="zoom-out-left"  class="container">
                     <a target="_blank" href="https://www.dell.com/en-in/shop/scc/sc/laptops?gacd=10415953-9016-5761040-285981356-0&dgc=ST&gclid=CjwKCAjwpqCZBhAbEiwAa7pXeQiW_4uZBoLUeZNAUCOv0h3YJNVEXkrTxjoNTpDhrm_5w-W5nkI_CRoCfFMQAvD_BwE&gclsrc=aw.ds&nclid=FNll4ivS_rD1bQeluqG8lLs1SU_qh8CFv7n8KadD8b4LlL1_aGCNC9BcBXxXeEfh">
